@@ -25,7 +25,7 @@ import java.util.Map;
  */
 @WebServlet("/add")
 public class AddController extends HttpServlet {
-    private BookService bookDao = new BookServiceImpl();
+    private BookService bookService = new BookServiceImpl();
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
@@ -41,7 +41,7 @@ public class AddController extends HttpServlet {
         book.setBookAuthor(bookAuthor);
 
         try {
-            flag = bookDao.addBook(book);
+            flag = bookService.addBook(book);
         } catch (SQLException e) {
             System.out.println("AddController SQLException");
             e.printStackTrace();
@@ -53,6 +53,11 @@ public class AddController extends HttpServlet {
         map.put("data", flag);
 
         System.out.println(map);
+//        response.setHeader("Access-Control-Allow-Origin", "http://192.168.43.37:8080");
+//        response.setHeader("Access-Control-Allow-Credentials", "true");
+        response.setHeader("Access-Control-Allow-Origin", "*");
+        response.setHeader("Access-Control-Allow-Headers", "Content-Type,X-Requested-With");
+        //resp.setHeader("Access-Control-Allow-Headers", "Content-Type,XFILENAME,XFILECATEGORY,XFILESIZE");
         response.setCharacterEncoding("utf-8");
         response.setContentType("text/plain;charset=utf-8");
         ObjectMapper objectMapper = new ObjectMapper();

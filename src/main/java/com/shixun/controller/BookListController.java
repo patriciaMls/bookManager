@@ -46,6 +46,10 @@ public class BookListController extends HttpServlet {
             return;
         }
 
+//        response.setHeader("Access-Control-Allow-Origin", "http://192.168.43.37:8080");
+//        response.setHeader("Access-Control-Allow-Credentials", "true");
+        response.setHeader("Access-Control-Allow-Origin", "*");
+        response.setHeader("Access-Control-Allow-Headers", "Content-Type,X-Requested-With");
         response.setCharacterEncoding("utf-8");
         response.setContentType("text/plain;charset=utf-8");
 

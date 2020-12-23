@@ -44,6 +44,11 @@ public class DeleteController extends HttpServlet {
         map.put("msg", "success");
         map.put("data", flag);
 
+//        response.setHeader("Access-Control-Allow-Origin", "http://192.168.43.37:8080");
+//        response.setHeader("Access-Control-Allow-Credentials", "true");
+        response.setHeader("Access-Control-Allow-Origin", "*");
+        response.setHeader("Access-Control-Allow-Headers", "Content-Type,X-Requested-With");
+        //response.setHeader("Access-Control-Allow-Headers", "Content-Type,XFILENAME,XFILECATEGORY,XFILESIZE");
         response.setCharacterEncoding("utf-8");
         response.setContentType("text/plain;charset=utf-8");
         ObjectMapper objectMapper = new ObjectMapper();

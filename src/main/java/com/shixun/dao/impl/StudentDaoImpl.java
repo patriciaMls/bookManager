@@ -8,6 +8,8 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @description:对学生表的操作（注册及登录）
@@ -55,7 +57,7 @@ public class StudentDaoImpl implements StudentDao {
     }
 
     @Override
-    public boolean login(String username, String password) throws SQLException {
+    public List<Student> login(String username, String password) throws SQLException {
         /**
          * @descript :验证学生用户的登录
          * @author :Patricia
@@ -70,24 +72,29 @@ public class StudentDaoImpl implements StudentDao {
         PreparedStatement pstmt = null;
         String sql = null;
         ResultSet rs = null;
-        boolean flag = false;
+        List<Student> list = new ArrayList<>();
 
         conn= DruidUtil.getInstance().getConnection();
-        sql = "SELECT student.stu_username,student.stu_password FROM student WHERE stu_username = ? AND stu_password = ?";
+        sql = "SELECT stu_id, stu_num, stu_name, stu_class, stu_username, stu_password FROM student WHERE stu_username = ? AND stu_password = ?";
         pstmt = conn.prepareStatement(sql);
         pstmt.setString(1, username);
         pstmt.setString(2, password);
         rs = pstmt.executeQuery();
 
-        if (rs.next()){
-            flag = true;
+        while (rs.next()){
+            int stuId = rs.getInt("stu_id");
+            String stuNum = rs.getString("stu_num");
+            String stuName = rs.getString("stu_name");
+            String stuClass = rs.getString("stu_class");
+            String stuUsername = rs.getString("stu_username");
+            String stuPassword = rs.getString("stu_password");
+            Student student = new Student(stuId, stuNum, stuName, stuClass, stuUsername, stuPassword);
+            list.add(student);
+            System.out.println(student);
             System.out.println("login successful");
-        }else {
-            System.out.println("username or password error!");
-            System.out.println("login failed");
         }
-        System.out.println(flag);
+        System.out.println(list);
         DruidUtil.getInstance().closeConnection(conn);
-        return flag;
+        return list;
     }
 }

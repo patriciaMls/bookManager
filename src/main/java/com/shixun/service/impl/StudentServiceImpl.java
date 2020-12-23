@@ -6,6 +6,7 @@ import com.shixun.entity.Student;
 import com.shixun.service.StudentService;
 
 import java.sql.SQLException;
+import java.util.List;
 
 /**
  * @description:
@@ -22,7 +23,7 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
-    public boolean login(String username, String password) throws SQLException {
+    public List<Student> login(String username, String password) throws SQLException {
         return studentDao.login(username, password);
     }
 }

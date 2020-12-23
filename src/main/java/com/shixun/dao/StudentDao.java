@@ -3,6 +3,7 @@ package com.shixun.dao;
 import com.shixun.entity.Student;
 
 import java.sql.SQLException;
+import java.util.List;
 
 /**
  * @description:
@@ -14,5 +15,5 @@ import java.sql.SQLException;
 public interface StudentDao {
     public boolean register(Student student) throws SQLException;
 
-    public boolean login(String username, String password) throws SQLException;
+    public List<Student> login(String username, String password) throws SQLException;
 }
