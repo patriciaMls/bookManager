@@ -38,6 +38,7 @@ public class AddDaoImpl implements AddDao {
             System.out.println("insert failed");
         }
 
+        DruidUtil.getInstance().closeConnection(conn);
         return flag;
     }
 }

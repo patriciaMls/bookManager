@@ -39,6 +39,7 @@ public class UpdateDaoImpl implements UpdateDao {
             System.out.println("update failed");
         }
 
+        DruidUtil.getInstance().closeConnection(conn);
         return flag;
     }
 }

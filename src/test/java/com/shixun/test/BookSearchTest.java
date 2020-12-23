@@ -72,6 +72,8 @@ public class BookSearchTest {
         }else {
             System.out.println("insert failed");
         }
+        DruidUtil.getInstance().closeConnection(conn);
+
     }
 
     @Test
@@ -103,5 +105,6 @@ public class BookSearchTest {
             System.out.println("update failed");
         }
         System.out.println(flag);
+        DruidUtil.getInstance().closeConnection(conn);
     }
 }

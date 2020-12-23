@@ -35,6 +35,7 @@ public class DeleteDaoImpl implements DeleteDao {
         }else {
             System.out.println("delete failed");
         }
+        DruidUtil.getInstance().closeConnection(conn);
         return flag;
     }
 }
