@@ -16,7 +16,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @description:
+ * @description:删除书籍的控制类
  * @author: Patricia
  * @date: Created in 2020/12/23 11:31
  * @version: 1.0

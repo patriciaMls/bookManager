@@ -10,7 +10,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * @description:
+ * @description:对学生表的操作（注册及登录）
  * @author: Patricia
  * @date: Created in 2020/12/23 15:42
  * @version: 1.0
@@ -19,6 +19,16 @@ import java.sql.SQLException;
 public class StudentDaoImpl implements StudentDao {
     @Override
     public boolean register(Student student) throws SQLException {
+        /**
+         * @descript :实现注册新的学生用户
+         * @author :Patricia
+         * @date :2020/12/23 17:27
+         * @param :[student]
+         * @return :boolean
+         * @throws :
+         * @since :
+         */
+
         Connection conn = null;
         PreparedStatement pstmt = null;
         String sql = null;
@@ -46,6 +56,16 @@ public class StudentDaoImpl implements StudentDao {
 
     @Override
     public boolean login(String username, String password) throws SQLException {
+        /**
+         * @descript :验证学生用户的登录
+         * @author :Patricia
+         * @date :2020/12/23 17:28
+         * @param :[username, password]
+         * @return :boolean
+         * @throws :
+         * @since :
+         */
+
         Connection conn = null;
         PreparedStatement pstmt = null;
         String sql = null;

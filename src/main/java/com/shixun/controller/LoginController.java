@@ -16,7 +16,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @description:
+ * @description:验证用户登录的控制类
  * @author: Patricia
  * @date: Created in 2020/12/23 16:06
  * @version: 1.0

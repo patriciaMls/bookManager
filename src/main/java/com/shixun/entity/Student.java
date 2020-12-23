@@ -1,7 +1,14 @@
 package com.shixun.entity;
 
 /**
- * @description:
+ * @description:学生实体类
+ * 实体类属性 —— 书籍表字段
+ * stuId —— stu_id
+ * stuNum —— stu_num
+ * stuName —— stu_name
+ * stuClass —— stu_class
+ * stuUsername —— stu_username
+ * stuPassword —— stu_password
  * @author: Patricia
  * @date: Created in 2020/12/23 15:40
  * @version: 1.0

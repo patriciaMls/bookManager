@@ -17,7 +17,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @description:
+ * @description:用户注册操作的控制类
  * @author: Patricia
  * @date: Created in 2020/12/23 15:50
  * @version: 1.0

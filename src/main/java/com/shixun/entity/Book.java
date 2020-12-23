@@ -1,14 +1,19 @@
 package com.shixun.entity;
 
 /**
- * @description:
+ * @description:书籍实体类
+ * 实体类属性 —— 书籍表字段
+ * bookId —— book_id
+ * bookTitle —— book_title
+ * bookNum —— book_num
+ * bookAuthor —— book_author
  * @author: Patricia
  * @date: Created in 2020/12/22 18:59
  * @version: 1.0
  * @modified By:
  */
 public class Book {
-    private  int bookId;
+    private int bookId;
     private String bookTitle;
     private String bookNum;
     private String bookAuthor;

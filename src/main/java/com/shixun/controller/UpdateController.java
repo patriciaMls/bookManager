@@ -17,7 +17,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @description:
+ * @description:修改书籍信息的控制类
  * @author: Patricia
  * @date: Created in 2020/12/23 12:06
  * @version: 1.0

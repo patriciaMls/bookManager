@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @description:
+ * @description:搜索书籍信息的控制类
  * @author: Patricia
  * @date: Created in 2020/12/23 10:38
  * @version: 1.0
