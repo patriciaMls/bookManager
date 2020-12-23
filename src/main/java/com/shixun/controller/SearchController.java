@@ -49,6 +49,7 @@ public class SearchController extends HttpServlet {
             return;
         }
 
+        System.out.println(bookList);
 //        response.setHeader("Access-Control-Allow-Origin", "http://192.168.43.37:8080");
 //        response.setHeader("Access-Control-Allow-Credentials", "true");
         response.setHeader("Access-Control-Allow-Origin", "*");

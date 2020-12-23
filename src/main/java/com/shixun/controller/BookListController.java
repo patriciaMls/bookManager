@@ -61,9 +61,6 @@ public class BookListController extends HttpServlet {
         map.put("data", bookList);
 
         System.out.println(map);
-        for (Book book : bookList) {
-            System.out.println("toString: "+book.toString());
-        }
 
         String s = objectMapper.writeValueAsString(map);
         PrintWriter out = response.getWriter();
