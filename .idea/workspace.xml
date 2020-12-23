@@ -7,7 +7,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6d25085-372b-4c3b-ac85-efe0d80cb5a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/controller/AddController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/dao/AddDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/dao/SearchDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/AddDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/SearchDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/service/AddService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/service/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/AddServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/SearchServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/shixun/test/BookSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/controller/AddController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/controller/SearchController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/dao/AddDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/dao/SearchDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/dao/impl/AddDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/dao/impl/SearchDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/service/AddService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/service/SearchService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/service/impl/AddServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/service/impl/SearchServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shixun/controller/AddController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shixun/controller/SearchController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shixun/dao/AddDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shixun/dao/SearchDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shixun/dao/impl/AddDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shixun/dao/impl/SearchDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shixun/service/AddService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shixun/service/SearchService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shixun/service/impl/AddServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shixun/service/impl/SearchServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/shixun/test/BookSearchTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shixun/test/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/shixun/test/BookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookManager.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/dao/impl/BookDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/dao/impl/BookDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/dao/impl/BookDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shixun/dao/impl/BookDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/shixun/test/BookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/shixun/test/BookTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,62 +66,24 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shixun@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/druid.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/utils/DruidUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/BookDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/BookDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/AddController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            <state relative-caret-position="336">
+              <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,53 +92,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/shixun/test/BookTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/SearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="47" column="9" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="-393">
+              <caret line="40" column="64" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/BookService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/impl/BookServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/BookListController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e1a2d17b-7dc8-42a8-8f55-21f33b1d256f/console.sql">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -166,10 +128,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/controller/impl/BookControllerImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/utils/DruidUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/druid.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/shixun/test/BookTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/controller/BookListController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/shixun/test/BookTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/dao/SearchDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/druid.properties" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e1a2d17b-7dc8-42a8-8f55-21f33b1d256f/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/SearchDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/SearchService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/SearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/dao/AddDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/BookDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/shixun/test/BookSearchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/AddDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/AddService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/AddServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/controller/AddController.java" />
       </list>
     </option>
   </component>
@@ -195,7 +169,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -205,6 +179,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,7 +247,51 @@
               <item name="bookManager" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shixun" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shixun" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shixun" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shixun" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bookManager" type="b2602c69:ProjectViewProjectNode" />
@@ -298,8 +318,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,9 +326,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
@@ -326,6 +348,38 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.51">
+    <configuration name="BookSearchTest.addBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shixun.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shixun.test" />
+      <option name="MAIN_CLASS_NAME" value="com.shixun.test.BookSearchTest" />
+      <option name="METHOD_NAME" value="addBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookSearchTest.searchBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shixun.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shixun.test" />
+      <option name="MAIN_CLASS_NAME" value="com.shixun.test.BookSearchTest" />
+      <option name="METHOD_NAME" value="searchBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookTest.getBookList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bookManager" />
       <extension name="coverage">
@@ -453,12 +507,16 @@
       <item itemvalue="JUnit.BookTest.method1" />
       <item itemvalue="JUnit.BookTest.method2" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.51" />
+      <item itemvalue="JUnit.BookSearchTest.searchBook" />
+      <item itemvalue="JUnit.BookSearchTest.addBook" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookSearchTest.addBook" />
+        <item itemvalue="JUnit.BookSearchTest.searchBook" />
+        <item itemvalue="JUnit.BookTest.getBookList" />
         <item itemvalue="JUnit.BookTest.method2" />
         <item itemvalue="JUnit.BookTest.method1" />
-        <item itemvalue="JUnit.BookTest.getBookList" />
       </list>
     </recent_temporary>
   </component>
@@ -472,7 +530,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608628413792</updated>
-      <workItem from="1608628417267" duration="7774000" />
+      <workItem from="1608628417267" duration="9331000" />
+      <workItem from="1608686604508" duration="6350000" />
     </task>
     <task id="LOCAL-00001" summary="first time">
       <created>1608639390989</created>
@@ -488,80 +547,88 @@
       <option name="project" value="LOCAL" />
       <updated>1608639502953</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first time">
+      <created>1608639900738</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608639900738</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookTest_method1 - 2020.12.22 at 19h 57m 10s.xml">
-      <configuration name="BookTest.method1" configurationId="JUnit" />
+    <history-entry file="BookSearchTest_searchBook - 2020.12.23 at 10h 28m 01s.xml">
+      <configuration name="BookSearchTest.searchBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookTest_method1 - 2020.12.22 at 19h 58m 43s.xml">
-      <configuration name="BookTest.method1" configurationId="JUnit" />
+    <history-entry file="BookSearchTest_searchBook - 2020.12.23 at 10h 29m 39s.xml">
+      <configuration name="BookSearchTest.searchBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookTest_method2 - 2020.12.22 at 19h 59m 13s.xml">
-      <configuration name="BookTest.method2" configurationId="JUnit" />
+    <history-entry file="BookSearchTest_searchBook - 2020.12.23 at 10h 30m 28s.xml">
+      <configuration name="BookSearchTest.searchBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookTest_method2 - 2020.12.22 at 20h 00m 08s.xml">
-      <configuration name="BookTest.method2" configurationId="JUnit" />
+    <history-entry file="BookSearchTest_searchBook - 2020.12.23 at 10h 30m 34s.xml">
+      <configuration name="BookSearchTest.searchBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookTest_method2 - 2020.12.22 at 20h 02m 15s.xml">
-      <configuration name="BookTest.method2" configurationId="JUnit" />
+    <history-entry file="BookSearchTest_searchBook - 2020.12.23 at 10h 30m 50s.xml">
+      <configuration name="BookSearchTest.searchBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookTest_getBookList - 2020.12.22 at 20h 02m 19s.xml">
-      <configuration name="BookTest.getBookList" configurationId="JUnit" />
+    <history-entry file="BookSearchTest_searchBook - 2020.12.23 at 10h 31m 19s.xml">
+      <configuration name="BookSearchTest.searchBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookTest_getBookList - 2020.12.22 at 20h 03m 52s.xml">
-      <configuration name="BookTest.getBookList" configurationId="JUnit" />
+    <history-entry file="BookSearchTest_searchBook - 2020.12.23 at 10h 31m 48s.xml">
+      <configuration name="BookSearchTest.searchBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookTest_getBookList - 2020.12.22 at 20h 04m 09s.xml">
-      <configuration name="BookTest.getBookList" configurationId="JUnit" />
+    <history-entry file="BookSearchTest_searchBook - 2020.12.23 at 10h 31m 54s.xml">
+      <configuration name="BookSearchTest.searchBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookTest_method1 - 2020.12.22 at 20h 07m 26s.xml">
-      <configuration name="BookTest.method1" configurationId="JUnit" />
+    <history-entry file="BookSearchTest_searchBook - 2020.12.23 at 10h 33m 56s.xml">
+      <configuration name="BookSearchTest.searchBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookTest_method2 - 2020.12.22 at 20h 07m 28s.xml">
-      <configuration name="BookTest.method2" configurationId="JUnit" />
+    <history-entry file="BookSearchTest_addBook - 2020.12.23 at 11h 03m 02s.xml">
+      <configuration name="BookSearchTest.addBook" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7774000" />
+    <option name="totallyTimeSpent" value="15681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15261473" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14087513" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.32960895" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50053364" side_tool="true" weight="0.33034715" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.33034715" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" visible="true" weight="0.33034715" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" visible="true" weight="0.33818588" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" weight="0.32894737" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053364" side_tool="true" weight="0.33034715" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32870865" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,13 +639,39 @@
     <option name="LAST_COMMIT_MESSAGE" value="first time" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e1a2d17b-7dc8-42a8-8f55-21f33b1d256f/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/impl/BookControllerImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/BookController.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1131">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shixun/test/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/entity/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1421">
-          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+        <state relative-caret-position="71">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="e#561#562#0" expanded="true" />
             <element signature="e#590#591#0" expanded="true" />
@@ -602,7 +695,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/BookDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
+        <state relative-caret-position="348">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -610,56 +703,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/BookService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/SearchDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/impl/BookControllerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/BookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/impl/BookServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/utils/DruidUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        <state relative-caret-position="275">
+          <caret line="27" column="69" lean-forward="true" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -669,14 +726,41 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/druid.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
-          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
+          <caret line="1" column="119" selection-start-line="1" selection-start-column="119" selection-end-line="1" selection-end-column="119" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shixun/test/BookTest.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e1a2d17b-7dc8-42a8-8f55-21f33b1d256f/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="47" selection-end-column="9" />
+        <state relative-caret-position="58">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/SearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/impl/BookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/impl/SearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -685,18 +769,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/BookListController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        <state relative-caret-position="419">
+          <caret line="66" column="20" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/AddDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/BookDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="559">
+          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/SearchDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shixun/test/BookSearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="74" lean-forward="true" selection-start-line="71" selection-start-column="9" selection-end-line="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/AddDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/AddService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/impl/AddServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-393">
+          <caret line="40" column="64" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/AddController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -706,9 +864,78 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>bookManager</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>13</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

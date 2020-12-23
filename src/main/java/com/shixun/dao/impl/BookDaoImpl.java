@@ -41,6 +41,8 @@ public class BookDaoImpl implements BookDao {
             bookList.add(book);
         }
 
+        DruidUtil.getInstance().closeConnection(conn);
+
         return bookList;
     }
 }

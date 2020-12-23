@@ -43,10 +43,6 @@ public class BookTest {
             System.out.println(book);
         }
 
-        for (Book book : bookList) {
-            System.out.println("toString: "+book.toString());
-        }
-
         DruidUtil.getInstance().closeConnection(conn);
     }
 
