@@ -30,8 +30,8 @@ public class AddDaoImpl implements AddDao {
         pstmt.setString(2, book.getBookNum());
         pstmt.setString(3, book.getBookAuthor());
 
-        int flagtemp = pstmt.executeUpdate();
-        if (flagtemp > 0){
+        int flagTemp = pstmt.executeUpdate();
+        if (flagTemp > 0){
             flag = true;
             System.out.println("insert successful");
         }else {

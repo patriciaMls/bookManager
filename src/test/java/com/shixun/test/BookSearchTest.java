@@ -72,6 +72,36 @@ public class BookSearchTest {
         }else {
             System.out.println("insert failed");
         }
+    }
 
+    @Test
+    public void updateBook() throws SQLException {
+        Book book = new Book();
+        book.setBookId(7);
+        book.setBookTitle("毛姆读书笔记");
+        book.setBookNum("GB7000");
+        book.setBookAuthor("W.S.毛");
+
+        Connection conn = null;
+        PreparedStatement pstmt = null;
+        String sql = null;
+        boolean flag = false;
+
+        conn = DruidUtil.getInstance().getConnection();
+        sql = "UPDATE `shixun`.`book` SET `book_title` = ?, `book_num` = ?, `book_author` = ? WHERE `book_id` = ?";
+        pstmt = conn.prepareStatement(sql);
+        pstmt.setString(1, book.getBookTitle());
+        pstmt.setString(2, book.getBookNum());
+        pstmt.setString(3, book.getBookAuthor());
+        pstmt.setInt(4, book.getBookId());
+
+        int flagTemp = pstmt.executeUpdate();
+        if (flagTemp > 0){
+            System.out.println("update successful");
+            flag = true;
+        }else {
+            System.out.println("update failed");
+        }
+        System.out.println(flag);
     }
 }
