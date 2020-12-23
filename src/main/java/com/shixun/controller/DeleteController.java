@@ -1,8 +1,8 @@
 package com.shixun.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.shixun.service.DeleteService;
-import com.shixun.service.impl.DeleteServiceImpl;
+import com.shixun.service.BookService;
+import com.shixun.service.impl.BookServiceImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -24,7 +24,7 @@ import java.util.Map;
  */
 @WebServlet("/delete")
 public class DeleteController extends HttpServlet {
-    DeleteService deleteService = new DeleteServiceImpl();
+    private BookService bookService = new BookServiceImpl();
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
@@ -33,7 +33,7 @@ public class DeleteController extends HttpServlet {
 
         int id = Integer.parseInt(bookId);
         try {
-            flag = deleteService.deleteBook(id);
+            flag = bookService.deleteBook(id);
         } catch (SQLException e) {
             System.out.println("DeleteController SQLException");
             e.printStackTrace();

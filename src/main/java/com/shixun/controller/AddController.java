@@ -2,8 +2,8 @@ package com.shixun.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.shixun.entity.Book;
-import com.shixun.service.AddService;
-import com.shixun.service.impl.AddServiceImpl;
+import com.shixun.service.BookService;
+import com.shixun.service.impl.BookServiceImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -25,7 +25,7 @@ import java.util.Map;
  */
 @WebServlet("/add")
 public class AddController extends HttpServlet {
-    private AddService addService = new AddServiceImpl();
+    private BookService bookDao = new BookServiceImpl();
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
@@ -41,7 +41,7 @@ public class AddController extends HttpServlet {
         book.setBookAuthor(bookAuthor);
 
         try {
-            flag = addService.addBook(book);
+            flag = bookDao.addBook(book);
         } catch (SQLException e) {
             System.out.println("AddController SQLException");
             e.printStackTrace();

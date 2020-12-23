@@ -15,7 +15,7 @@ import java.sql.SQLException;
  * @modified By:
  */
 public class StudentServiceImpl implements StudentService {
-    StudentDao studentDao = new StudentDaoImpl();
+    private StudentDao studentDao = new StudentDaoImpl();
     @Override
     public boolean register(Student student) throws SQLException {
         return studentDao.register(student);

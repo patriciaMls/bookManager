@@ -2,8 +2,8 @@ package com.shixun.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.shixun.entity.Book;
-import com.shixun.service.UpdateService;
-import com.shixun.service.impl.UpdateServiceImpl;
+import com.shixun.service.BookService;
+import com.shixun.service.impl.BookServiceImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -25,7 +25,7 @@ import java.util.Map;
  */
 @WebServlet("/update")
 public class UpdateController extends HttpServlet {
-    private UpdateService updateService = new UpdateServiceImpl();
+    private BookService bookService = new BookServiceImpl();
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -41,7 +41,7 @@ public class UpdateController extends HttpServlet {
         Book book = new Book(id, bookTitle, bookNum, bookAuthor);
 
         try {
-            flag = updateService.updateBook(book);
+            flag = bookService.updateBook(book);
         } catch (SQLException e) {
             System.out.println("UpdateController SQLException");
             e.printStackTrace();

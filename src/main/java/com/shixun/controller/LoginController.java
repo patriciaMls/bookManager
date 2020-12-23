@@ -24,7 +24,7 @@ import java.util.Map;
  */
 @WebServlet("/login")
 public class LoginController extends HttpServlet {
-    StudentService studentService = new StudentServiceImpl();
+    private StudentService studentService = new StudentServiceImpl();
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");

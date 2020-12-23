@@ -2,8 +2,8 @@ package com.shixun.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.shixun.entity.Book;
-import com.shixun.service.SearchService;
-import com.shixun.service.impl.SearchServiceImpl;
+import com.shixun.service.BookService;
+import com.shixun.service.impl.BookServiceImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -27,7 +27,8 @@ import java.util.Map;
  */
 @WebServlet("/search")
 public class SearchController extends HttpServlet {
-    private SearchService searchService = new SearchServiceImpl();
+    private BookService bookService = new BookServiceImpl();
+
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
@@ -36,7 +37,7 @@ public class SearchController extends HttpServlet {
         List<Book> bookList = new ArrayList<>();
 
         try {
-            bookList = searchService.searchBook(title);
+            bookList = bookService.searchBook(title);
         } catch (SQLException e) {
             System.out.println("SearchController SQLException");
             e.printStackTrace();

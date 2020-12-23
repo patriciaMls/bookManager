@@ -8,10 +8,88 @@
   <component name="ChangeListManager">
     <list default="true" id="f6d25085-372b-4c3b-ac85-efe0d80cb5a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/AddDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/AddDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/DeleteDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/DeleteDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/UpdateDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/UpdateDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/shixun/test/BookSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/shixun/test/BookSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/controller/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixun/controller/AddController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/controller/DeleteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixun/controller/DeleteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixun/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixun/controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixun/controller/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/controller/UpdateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixun/controller/UpdateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/dao/AddDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixun/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/dao/DeleteDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/dao/SearchDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/dao/UpdateDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/AddDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/DeleteDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/SearchDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/UpdateDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/service/AddService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixun/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/service/DeleteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/service/SearchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/service/UpdateService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/AddServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/DeleteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/SearchServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/UpdateServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookManager.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/controller/AddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/controller/AddController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/controller/DeleteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/controller/DeleteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/controller/SearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/controller/SearchController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/controller/UpdateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/controller/UpdateController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/dao/AddDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/dao/BookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/dao/BookDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/dao/DeleteDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/dao/SearchDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/dao/UpdateDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/dao/impl/AddDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/dao/impl/BookDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/dao/impl/BookDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/dao/impl/DeleteDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/dao/impl/SearchDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/dao/impl/UpdateDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/service/AddService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/service/DeleteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/service/SearchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/service/UpdateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/service/impl/AddServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/service/impl/DeleteServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/service/impl/SearchServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/service/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/service/impl/StudentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookManager/WEB-INF/classes/com/shixun/service/impl/UpdateServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/controller/AddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shixun/controller/AddController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/controller/DeleteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shixun/controller/DeleteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shixun/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shixun/controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/controller/SearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shixun/controller/SearchController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/controller/UpdateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shixun/controller/UpdateController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/dao/AddDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/dao/BookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shixun/dao/BookDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/dao/DeleteDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/dao/SearchDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/dao/UpdateDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/dao/impl/AddDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/dao/impl/BookDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shixun/dao/impl/BookDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/dao/impl/DeleteDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/dao/impl/SearchDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/dao/impl/UpdateDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/service/AddService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shixun/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/service/DeleteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/service/SearchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/service/UpdateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/service/impl/AddServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shixun/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/service/impl/DeleteServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/service/impl/SearchServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/service/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shixun/service/impl/StudentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shixun/service/impl/UpdateServiceImpl.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,47 +123,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/StudentDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-261">
-              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/shixun/test/StudentTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/UpdateController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/StudentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="16" column="79" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/impl/StudentServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="336">
+              <caret line="33" column="50" lean-forward="true" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,8 +138,104 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+            <state relative-caret-position="29">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/RegisterController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/BookDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3410">
+              <caret line="149" column="20" selection-start-line="149" selection-start-column="20" selection-end-line="149" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/BookListController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1376">
+              <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/StudentDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3">
+              <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/SearchController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/impl/BookServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="945">
+              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/BookService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/impl/StudentServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,10 +260,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/entity/Book.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shixun/dao/BookDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/BookService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/BookService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/BookServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/controller/BookController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/controller/impl/BookControllerImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/utils/DruidUtil.java" />
@@ -136,34 +271,37 @@
         <option value="$PROJECT_DIR$/src/main/resources/druid.properties" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e1a2d17b-7dc8-42a8-8f55-21f33b1d256f/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/SearchDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/SearchService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/SearchServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/dao/AddDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/BookDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/AddService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/AddServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/dao/DeleteDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/DeleteService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/DeleteServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/dao/UpdateDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/UpdateService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/UpdateServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shixun/controller/SearchController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shixun/controller/UpdateController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shixun/controller/DeleteController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shixun/controller/AddController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/AddDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/DeleteDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/UpdateDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/shixun/test/BookSearchTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/entity/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shixun/controller/RegisterController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/dao/StudentDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/StudentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/StudentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shixun/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/StudentDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/shixun/test/StudentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/StudentDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/dao/BookDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/BookDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/UpdateService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/SearchService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/BookService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/BookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/controller/AddController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/controller/UpdateController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/controller/DeleteController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/controller/RegisterController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shixun/service/impl/StudentServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -552,7 +690,7 @@
       <updated>1608628413792</updated>
       <workItem from="1608628417267" duration="9331000" />
       <workItem from="1608686604508" duration="11780000" />
-      <workItem from="1608705240951" duration="4726000" />
+      <workItem from="1608705240951" duration="6341000" />
     </task>
     <task id="LOCAL-00001" summary="first time">
       <created>1608639390989</created>
@@ -603,16 +741,17 @@
       <option name="project" value="LOCAL" />
       <updated>1608702849675</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="four times">
+      <created>1608711443834</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608711443834</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookSearchTest_searchBook - 2020.12.23 at 10h 30m 50s.xml">
-      <configuration name="BookSearchTest.searchBook" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookSearchTest_searchBook - 2020.12.23 at 10h 31m 19s.xml">
-      <configuration name="BookSearchTest.searchBook" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BookSearchTest_searchBook - 2020.12.23 at 10h 31m 48s.xml">
       <configuration name="BookSearchTest.searchBook" configurationId="JUnit" />
     </history-entry>
@@ -637,12 +776,18 @@
     <history-entry file="StudentTest_login - 2020.12.23 at 16h 12m 09s.xml">
       <configuration name="StudentTest.login" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentTest_login - 2020.12.23 at 16h 14m 23s.xml">
+      <configuration name="StudentTest.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_login - 2020.12.23 at 16h 14m 49s.xml">
+      <configuration name="StudentTest.login" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25837000" />
+    <option name="totallyTimeSpent" value="27452000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14354323" />
@@ -688,7 +833,8 @@
     <MESSAGE value="first time" />
     <MESSAGE value="second times" />
     <MESSAGE value="three times" />
-    <option name="LAST_COMMIT_MESSAGE" value="three times" />
+    <MESSAGE value="four times" />
+    <option name="LAST_COMMIT_MESSAGE" value="four times" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/impl/BookControllerImpl.java" />
@@ -697,16 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1131">
           <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,16 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/SearchDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/utils/DruidUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -779,26 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/SearchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/impl/BookServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/impl/SearchServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
@@ -806,68 +912,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/AddDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/AddService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/impl/AddServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/DeleteDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/DeleteService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/impl/DeleteServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/UpdateDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/UpdateService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -881,120 +925,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/UpdateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/DeleteController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/BookListController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1450">
-          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/BookDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/AddDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="40" selection-start-line="40" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/BookDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/DeleteDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="37" column="54" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/SearchDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/UpdateDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/shixun/test/BookSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1989">
           <caret line="75" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/SearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-316">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/AddController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1034,26 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="65" column="20" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="65" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="79" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/StudentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1064,10 +978,172 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/impl/StudentServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shixun/test/StudentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="162">
+          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/AddDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="14" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/DeleteDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/SearchDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="15" selection-start-line="15" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="16" column="79" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/UpdateDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="14" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/AddDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="41" column="20" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="41" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/DeleteDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="38" column="20" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="38" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/SearchDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="45" column="24" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="45" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/UpdateDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="42" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/impl/AddServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/AddService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="14" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/UpdateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="14" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/DeleteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/SearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="15" selection-start-line="15" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/impl/DeleteServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/AddController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/DeleteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1076,8 +1152,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        <state relative-caret-position="29">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/impl/BookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/BookListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1376">
+          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1086,18 +1222,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/StudentDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-261">
-          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        <state relative-caret-position="3">
+          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shixun/test/StudentTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/dao/impl/BookDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+        <state relative-caret-position="3410">
+          <caret line="149" column="20" selection-start-line="149" selection-start-column="20" selection-end-line="149" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shixun/controller/UpdateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="33" column="50" lean-forward="true" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

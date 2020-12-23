@@ -21,4 +21,24 @@ public class BookServiceImpl implements BookService {
     public List<Book> getBookList() throws SQLException {
         return bookDao.getBookList();
     }
+
+    @Override
+    public boolean addBook(Book book) throws SQLException {
+        return bookDao.addBook(book);
+    }
+
+    @Override
+    public boolean deleteBook(int bookId) throws SQLException {
+        return bookDao.deleteBook(bookId);
+    }
+
+    @Override
+    public List<Book> searchBook(String title) throws SQLException {
+        return bookDao.searchBook(title);
+    }
+
+    @Override
+    public boolean updateBook(Book book) throws SQLException {
+        return bookDao.updateBook(book);
+    }
 }

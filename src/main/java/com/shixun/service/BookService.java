@@ -14,4 +14,13 @@ import java.util.List;
  */
 public interface BookService {
     public List<Book> getBookList() throws SQLException;
+
+    public boolean addBook(Book book) throws SQLException;
+
+    public boolean deleteBook(int bookId) throws SQLException;
+
+    public List<Book> searchBook(String title) throws SQLException;
+
+    public boolean updateBook(Book book) throws SQLException;
+
 }
