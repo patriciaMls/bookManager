@@ -42,7 +42,7 @@ public class DeleteController extends HttpServlet {
         Map<String, Object> map = new HashMap<>();
         map.put("code", 200);
         map.put("msg", "success");
-        map.put("flag", flag);
+        map.put("data", flag);
 
         response.setCharacterEncoding("utf-8");
         response.setContentType("text/plain;charset=utf-8");

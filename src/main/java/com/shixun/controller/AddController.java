@@ -50,7 +50,7 @@ public class AddController extends HttpServlet {
         Map<String, Object> map = new HashMap<>();
         map.put("code", 200);
         map.put("msg", "success");
-        map.put("flag", flag);
+        map.put("data", flag);
 
         System.out.println(map);
         response.setCharacterEncoding("utf-8");

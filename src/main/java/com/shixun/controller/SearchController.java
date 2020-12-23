@@ -55,7 +55,7 @@ public class SearchController extends HttpServlet {
 
         map.put("code", 200);
         map.put("msg", "success");
-        map.put("bookList", bookList);
+        map.put("data", bookList);
 
         System.out.println(map);
         for (Book book : bookList) {
